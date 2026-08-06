@@ -42,5 +42,9 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-1919 is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/1919-stock
+1919 (壹玖壹玖 / 1919酒类直供) is a Chengdu-based Chinese alcoholic-beverage retail and supply-chain platform operated by Sichuan 1919 Wines & Spirits SCM Co., Ltd. Founded in 2006, it runs an omnichannel online-to-offline model — the 1919吃喝 consumer app and a third-party e-commerce matrix layered on 3,000+ franchised stores across 1,000+ Chinese cities — alongside a B2B liquor supply-chain business. It listed on China's NEEQ board in 2014 (830993), took a RMB 2 billion strategic investment from Alibaba in 2018, and delisted from NEEQ in 2023.
+
+1919 publishes **no public developer program** — no API portal, documentation, SDKs, webhooks or machine-readable specification. See the `x-coverage` block in `apis.yml` for the probe evidence.
+
+- https://www.1919.cn/
+- https://www.hiive.com/securities/1919-stock (secondary-market listing, the harvest source)

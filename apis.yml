@@ -1,10 +1,19 @@
 aid: '1919'
 name: '1919'
-description: '1919 is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: '1919 (壹玖壹玖 / 1919酒类直供) is a Chengdu-based Chinese alcoholic-beverage retail
+  and supply-chain platform operated by Sichuan 1919 Wines & Spirits SCM Co., Ltd. Founded
+  in 2006, it runs an omnichannel online-to-offline model: the 1919吃喝 consumer app and a
+  third-party e-commerce matrix layered on more than 3,000 franchised stores across 1,000+
+  Chinese cities, marketed on a 19-minute rapid-delivery promise, alongside a B2B liquor
+  supply-chain business selling order management, logistics and data-marketing services to
+  distributors. The company listed on China''s NEEQ board in 2014 (830993), took a RMB 2
+  billion strategic investment from Alibaba in 2018, and delisted from NEEQ in 2023; its
+  shares now change hands on private secondary marketplaces.'
+image: https://www.1919.cn/web/images/global-header/header-logo.png
 url: https://raw.githubusercontent.com/api-evangelist/1919/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
+x-source-url: https://www.hiive.com/securities/1919-stock
 x-tier: stub
 x-tier-reason: harvest
 specificationVersion: '0.20'
@@ -12,6 +21,15 @@ created: '2026-08-05'
 modified: '2026-08-05'
 tags:
 - Company
+- Alcoholic Beverages
+- Wine and Spirits
+- E-Commerce
+- Retail
+- Supply Chain
+- Logistics
+- Marketplace
+- Consumer
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +37,38 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/1919-domain-security.yml
 - type: Website
-  url: https://www.hiive.com/securities/1919-stock
+  url: https://www.1919.cn/
+- type: About
+  url: https://www.1919.cn/web/about.html
+- type: PrivacyPolicy
+  url: https://weixin.1919.cn/b2c1919/index.html#/aboutUsStaticText?appSceneCode=1919chiheapp_ys
+- type: Applications
+  url: https://apps.apple.com/cn/app/id1020572957
+x-enrichment:
+  date: '2026-08-05'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    1919 runs real software — an iOS/Android commerce app and four named production
+    gateways (1919partner-zuul, ch-app-gateway, ucenter-app-gateway, vendor) hardcoded
+    in its own site JavaScript — but publishes no developer program of any kind: every
+    gateway answers a JSON {"code":404} envelope for /openapi.json, /swagger.json,
+    /v2/api-docs, /graphql, /mcp and /.well-known/*, identical to a nonsense control
+    path, and open./developer./docs./api-portal.1919.cn do not resolve.
+  evidence:
+  - url: https://www.1919.cn/openapi.json
+    status: 404
+  - url: https://www.1919.cn/.well-known/agent-card.json
+    status: 404
+  - url: https://1919partner-zuul.1919.cn/openapi.json
+    status: 200
+  - url: https://ch-app-gateway.1919.cn/graphql
+    status: 200
+  checked: '2026-08-05'
