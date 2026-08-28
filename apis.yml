@@ -9,6 +9,17 @@ description: '1919 (壹玖壹玖 / 1919酒类直供) is a Chengdu-based Chinese 
   distributors. The company listed on China''s NEEQ board in 2014 (830993), took a RMB 2
   billion strategic investment from Alibaba in 2018, and delisted from NEEQ in 2023; its
   shares now change hands on private secondary marketplaces.'
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 image: https://www.1919.cn/web/images/global-header/header-logo.png
 url: https://raw.githubusercontent.com/api-evangelist/1919/refs/heads/main/apis.yml
 x-type: company
