@@ -64,9 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-1919 (壹玖壹玖 / 1919酒类直供) is a Chengdu-based Chinese alcoholic-beverage retail and supply-chain platform operated by Sichuan 1919 Wines & Spirits SCM Co., Ltd. Founded in 2006, it runs an omnichannel online-to-offline model — the 1919吃喝 consumer app and a third-party e-commerce matrix layered on 3,000+ franchised stores across 1,000+ Chinese cities — alongside a B2B liquor supply-chain business. It listed on China's NEEQ board in 2014 (830993), took a RMB 2 billion strategic investment from Alibaba in 2018, and delisted from NEEQ in 2023.
+1919 (壹玖壹玖 / 1919酒类直供) is a Chengdu-based Chinese alcoholic-beverage retail and supply-chain platform operated by Sichuan 1919 Wines & Spirits SCM Co., Ltd. Founded in 2006, it runs an omnichannel online-to-offline model: the 1919吃喝 consumer app and a third-party e-commerce matrix layered on more than 3,000 franchised stores across 1,000+ Chinese cities, marketed on a 19-minute rapid-delivery promise, alongside a B2B liquor supply-chain business selling order management, logistics and data-marketing services to distributors. The company listed on China's NEEQ board in 2014 (830993), took a RMB 2 billion strategic investment from Alibaba in 2018, and delisted from NEEQ in 2023; its shares now change hands on private secondary marketplaces.
 
-1919 publishes **no public developer program** — no API portal, documentation, SDKs, webhooks or machine-readable specification. See the `x-coverage` block in `apis.yml` for the probe evidence.
+**Areas:** Company · Alcoholic Beverages · Wine and Spirits · E-Commerce · Retail · Supply Chain · Logistics · Marketplace · Consumer · China
 
-- https://www.1919.cn/
-- https://www.hiive.com/securities/1919-stock (secondary-market listing, the harvest source)
+## 1919 on APIs.io
+
+Everything profiled for 1919 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/1919/](https://apis.io/providers/1919/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [1919 Domain Security](https://apis.io/security/1919/1919-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.1919.cn/)
+- [Privacy policy](https://weixin.1919.cn/b2c1919/index.html#/aboutUsStaticText?appSceneCode=1919chiheapp_ys)
+
+## API Evangelist rating
+
+**Kin Score 6.1** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/1919/](https://apis.io/providers/1919/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 1919: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/1919/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
